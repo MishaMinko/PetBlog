@@ -1,0 +1,109 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Editors / IDEs =====
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*~
+
+# ===== .NET build output =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+publish/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# ===== .NET tests / coverage =====
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+.nuget/
+
+# ===== Visual Studio / ReSharper =====
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.vs/
+*.VC.db
+*.VC.VC.opendb
+.mfractor/
+
+# ===== Local settings and secrets =====
+appsettings.Development.local.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.key
+.env
+.env.*
+!.env.example
+
+# ===== SQLite database (local dev data) =====
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ===== Node / Angular =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+
+frontend/dist/
+frontend/out-tsc/
+frontend/tmp/
+frontend/.angular/
+dist/
+.angular/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+typings/
+.eslintcache
+
+# ===== Angular generated / misc =====
+frontend/.angular/cache
+*.tsbuildinfo
+
+# ===== Logs =====
+*.log
