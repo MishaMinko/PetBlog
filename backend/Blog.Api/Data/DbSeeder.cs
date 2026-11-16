@@ -17,18 +17,24 @@ namespace Blog.Api.Data
                 {
                     Title = "First Post",
                     Content = "Welcome to my first post!",
-                    CreatedAt = now.AddDays(-2)
+                    CreatedAt = now.AddDays(-3)
                 },
                 new Post
                 {
                     Title = "Learning Angular",
                     Content = "Today learned standalone-components.",
-                    CreatedAt = now.AddDays(-1)
+                    CreatedAt = now.AddDays(-2)
                 },
                 new Post
                 {
                     Title = "Writing this post",
                     Content = "Learning to fast blind typing. It's hard.",
+                    CreatedAt = now.AddDays(-3)
+                },
+                new Post
+                {
+                    Title = "Wanna check time post",
+                    Content = "This post will help me with checking time of posts I think.",
                     CreatedAt = now
                 }
                 );
